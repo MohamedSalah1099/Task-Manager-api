@@ -1,0 +1,23 @@
+﻿# Gradle
+.gradle
+build
+.kotlin
+
+# Secrets - NEVER commit .env files with real credentials
+.env
+*.env
+!.env.example
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.zed/
+*.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Compiled classes
+*.class
